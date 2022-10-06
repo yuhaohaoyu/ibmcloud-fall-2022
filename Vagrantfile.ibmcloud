@@ -2,8 +2,8 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
-  # Use Ubuntu 18.04
-  config.vm.box = "ubuntu/bionic64"
+  # Use Ubuntu 20.04
+  config.vm.box = "ubuntu/focal64"
 
   # Set up network port forwarding
   config.vm.network "forwarded_port", guest: 8001, host: 8001, host_ip: "127.0.0.1"
