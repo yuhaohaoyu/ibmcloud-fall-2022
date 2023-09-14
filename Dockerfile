@@ -1,8 +1,8 @@
 # Start with a Linux micro-container to keep the image tiny
-FROM alpine:3.7
+FROM alpine:3.17
 
 # Document who is responsible for this image
-MAINTAINER Seetharami R. Seelam "sseelam@nyu.edu"
+MAINTAINER Hao Yu "hy2467@nyu.edu"
 
 # Install just the Python runtime (no dev)
 RUN apk add --no-cache \
